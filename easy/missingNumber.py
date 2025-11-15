@@ -9,4 +9,9 @@ class Solution(object):
             if nums[i] != i:
                 return i
         return len(nums)
+        #SECOND SOLUTION
+        n = len(nums)
+        total = (n + 1) // 2 * n
+        return total - sum(nums)
+
 
