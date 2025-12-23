@@ -1,4 +1,5 @@
 class Solution(object):
+    # define a function to reverse bits of a 32-bit unsigned integer
     def reverseBits(self, n):
         """
         :type n: int
